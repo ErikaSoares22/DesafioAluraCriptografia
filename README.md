@@ -39,3 +39,100 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+* {
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:25px;
+    line-height: 150%;
+}
+
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border-width: 25px;
+    border: #343A40;
+    color: #343A40;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #343A40}
+    .text-area:focus; {
+        outline: none;
+    }
+
+.mensagem {
+    background: #FF6347;
+    background-image: url(/Imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #008B8B;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #FF6347;
+    border: 1px solid #FF6347;
+    border-radius: 24px;
+    color: #343A40;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: #FF6347;
+    border: 1px solid #FF6347;
+    border-radius: 24px;
+    color: #343A40;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background: #FF6347;
+    border: 1px solid #FF6347;
+    border-radius: 24px;
+    color: #343A40;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #343A40;
+    font-size: 18px;
+}
+
